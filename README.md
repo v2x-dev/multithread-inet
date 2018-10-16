@@ -1,17 +1,17 @@
 # Multi-threaded INET Framework for V2X Communications
 
-This is multi-threaded version of INET Framework. Our implementation is able to reduce the simulation time, ensuring seamless integration with the existing scenarios of a user. This code is based on the legacy INET Framework (ver. 3.6.4-394571f) and is modified accordingly. INET Framework is an open-source suite for wired, wireless, and mobile networks.
+This is multi-threaded version of INET Framework. Our implementation is able to reduce the simulation time, ensuring seamless integration with the existing scenarios of a user. The reason for designing this multi-threaded version was to be able to increase the  Kodo was to make a tool for doing research on ...This code is based on the legacy INET Framework (ver. 3.6.4-394571f) and is modified accordingly. INET Framework is an open-source suite for wired, wireless, and mobile networks.
 
 For our research purposes, we modified the functions below:
 * *visitObject* in the *PhysicalEnvironment* class.
 * *visit* in the *DielectricObstacleLoss* class.
 
-We also introduced the notion of the *distanceBoundary* under within the *ScalarAnalogueModel* class.
+We also introduced the notion of the *distanceBoundary* under within the *ScalarAnalogueModel* class.\
 For further details about our modifications, please refer to ADD LINK.
 
 # Licence
-
-If this code is used for drafting a manuscript, the authors should cite the following paper:
+This code is freely available under the GNU General Public License v3.0, found in the [LICENCE](https://github.com/v2x-dev/multithread-inet/blob/master/LICENSE) file.\
+If this code is used for drafting a manuscript, all we ask is to cite our work:
 ```    
 @inproceedings{multithreadedINET,
         author = {{Mavromatis}, I. and {Tassi}, A. and {Piechocki}, R.~J. and {Nix}, A.},
@@ -43,7 +43,7 @@ Scenario.radioMedium.analogModel.distanceBoundary = 1000
 5. The *Scenario* is the name of the network to be simulated in Omnet++. The *numberOfThreads* can be modified accordingly to the machine used (please refer to our paper for more information and the difference in the performance introduced). Finally, the *distanceBoundary* can be modified with regard the scenario and the granularity required from the user.
 
 # Useful Links
-More information about Veins vehicular network simulation framework can be found in [Veins website](http://veins.car2x.org/).
-More information about the INET Framework can be found in [INET Framework's website](https://inet.omnetpp.org/).
-More information about Omnet++ can be found in [Omnet++ website](https://omnetpp.org/) and under the [documentation](https://omnetpp.org/documentation) page.
+More information about Veins vehicular network simulation framework can be found in [Veins website](http://veins.car2x.org/).\
+More information about the INET Framework can be found in [INET Framework's website](https://inet.omnetpp.org/).\
+More information about Omnet++ can be found in [Omnet++ website](https://omnetpp.org/) and under the [documentation](https://omnetpp.org/documentation) page.\
 More information about SUMO Traffic Genetator can be found in [SUMO's website](https://www.dlr.de/ts/en/desktopdefault.aspx/tabid-9883/16931_read-41000/).
