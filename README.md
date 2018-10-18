@@ -20,9 +20,6 @@ If this code is used for drafting a manuscript, all we ask is to cite the follow
         year = 2018,
         month = {Dec},
 }
-```
-and
-```    
 @INPROCEEDINGS{fullStackV2X, 
         author={I. Mavromatis and A. Tassi and R. J. Piechocki and A. Nix}, 
         booktitle={2017 IEEE Vehicular Networking Conference (VNC)}, 
