@@ -11,19 +11,29 @@ For further details about our modifications, please refer to ADD LINK.
 
 # Licence
 This code is freely available under the GNU General Public License v3.0, found in the [LICENCE](https://github.com/v2x-dev/multithread-inet/blob/master/LICENSE) file.\
-If this code is used for drafting a manuscript, all we ask is to cite our work:
+If this code is used for drafting a manuscript, all we ask is to cite the following papers:
 ```    
-@inproceedings{multithreadedINET,
-        author = {{Mavromatis}, I. and {Tassi}, A. and {Piechocki}, R.~J. and {Nix}, A.},
+@INPROCEEDINGS{multithreadedINET,
+        author={I. Mavromatis and A. Tassi and R. J. Piechocki and A. Nix},
         title = {{Parallel Implementation of the OMNeT++ INET Framework for V2X Communications}},
         booktitle={Proc. of IEEE Vehicular Networking Conference (VNC) 2018},
         year = 2018,
-        month = dec,
-        pages={},
-        doi={},
-        ISSN={},
-    }
+        month = {Dec},
+}
 ```
+and
+```    
+@INPROCEEDINGS{fullStackV2X, 
+        author={I. Mavromatis and A. Tassi and R. J. Piechocki and A. Nix}, 
+        booktitle={2017 IEEE Vehicular Networking Conference (VNC)}, 
+        title={Agile calibration process of full-stack simulation frameworks for V2X communications}, 
+        year={2017}, 
+        doi={10.1109/VNC.2017.8275604}, 
+        ISSN={2157-9865}, 
+        month={Nov},
+}
+```
+
 # Requirements
 
 The code is compatible with Linux (Ubuntu 16.04 LTS) and OS X 10.12 and 10.13. It is also compatible with Omnet++ 5.2.1 and Veins 4.6. The SUMO Traffic Generator (ver. 0.30.0) is required to generate the vehicle routes. All the above tools should be pre-installed. Please refer to the links below for detailed guides of how to install them.
