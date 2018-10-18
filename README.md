@@ -26,7 +26,7 @@ and
 @INPROCEEDINGS{fullStackV2X, 
         author={I. Mavromatis and A. Tassi and R. J. Piechocki and A. Nix}, 
         booktitle={2017 IEEE Vehicular Networking Conference (VNC)}, 
-        title={Agile calibration process of full-stack simulation frameworks for V2X communications}, 
+        title={{Agile Calibration Process of Full-Stack Simulation Frameworks for V2X Communications}}, 
         year={2017}, 
         doi={10.1109/VNC.2017.8275604}, 
         ISSN={2157-9865}, 
