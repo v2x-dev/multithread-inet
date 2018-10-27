@@ -1,13 +1,13 @@
 # Multi-threaded INET Framework for V2X Communications
 
-This is multi-threaded version of INET Framework. Our implementation is able to reduce the simulation time, ensuring seamless integration with the existing scenarios of a user. The reason for designing this multi-threaded version was to be able to increase the  Kodo was to make a tool for doing research on ...This code is based on the legacy INET Framework (ver. 3.6.4-394571f) and is modified accordingly. INET Framework is an open-source suite for wired, wireless, and mobile networks.
+This is multi-threaded version of INET Framework. Our implementation is able to reduce the simulation time, ensuring seamless integration with the existing scenarios of a user. Our code is based on the legacy INET Framework (ver. 3.6.4-394571f) and it has been modified accordingly. The INET Framework is an open-source suite for wired, wireless, and mobile networks.
 
 For our research purposes, we modified the functions below:
 * *visitObject* in the *PhysicalEnvironment* class.
 * *visit* in the *DielectricObstacleLoss* class.
 
 We also introduced the notion of the *distanceBoundary* under within the *ScalarAnalogueModel* class.\
-For further details about our modifications, please refer to ADD LINK.
+For further details about our modifications, please refer to our paper https://github.com/v2x-dev/multithread-inet/blob/master/ieeevnc2018.pdf.
 
 # Licence
 This code is freely available under the GNU General Public License v3.0, found in the [LICENCE](https://github.com/v2x-dev/multithread-inet/blob/master/LICENSE) file.\
