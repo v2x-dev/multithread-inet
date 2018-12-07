@@ -7,7 +7,7 @@ For our research purposes, we modified the functions below:
 * *visit* in the *DielectricObstacleLoss* class.
 
 We also introduced the notion of the *distanceBoundary* under within the *ScalarAnalogueModel* class.\
-For further details about our modifications, please refer to our paper https://github.com/v2x-dev/multithread-inet/blob/master/ieeevnc2018.pdf.
+For further details about our modifications, please refer to our paper https://github.com/v2x-dev/multithread-inet/blob/master/ieeevnc2018.pdf and our poster https://github.com/v2x-dev/multithread-inet/blob/master/poster_ieeevnc2018.pdf.
 
 # Licence
 This code is freely available under the GNU General Public License v3.0, found in the [LICENCE](https://github.com/v2x-dev/multithread-inet/blob/master/LICENSE) file.\
