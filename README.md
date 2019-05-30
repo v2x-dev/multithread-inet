@@ -2,7 +2,7 @@
 
 This is multi-threaded version of INET Framework. Our implementation is able to reduce the simulation time, ensuring seamless integration with the existing scenarios of a user. Our code is based on the legacy INET Framework and it has been modified accordingly. The INET Framework is an open-source suite for wired, wireless, and mobile networks.
 
-# Multithread Versions 3.6.4 and 4.0
+# Multi-threaded Versions 3.6.4 and 4.0
 Two different versions of the multithreaded INET framework are provided. The first one is based on ver. 3.6.4-394571f (multithreaded_inet_3.6.4). The second one, is based on ver. 4.0-576b2dc (multithreaded_inet_4.0). Both versions provide the same functionality described above. Either one can be chosen based on the versions of OMNeT++, Veins, and SUMO that will be used.
 
 For our research purposes, we modified the functions below:
